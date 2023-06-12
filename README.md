@@ -1,6 +1,6 @@
 # LaptopPartitions
 Laptop Partitions est un site web d'e-commerce réalisé par : OMARI Mohamed, MAKKOUR Mouad et YACHOU Bilal, destiné à la vente de composants d'ordinateurs ou d'ordinateurs complets. Ce rapport présente une vue d'ensemble du projet, les technologies utilisées...
-vous trouverez ci-joint la base de données(user_db)!!
+vous trouverez ci-joint une video descriptive de projet ainsi que la base de données(user_db)!!
 
     Objectifs du Projet :
     L'objectif principal du projet Laptop Partitions est de créer une plateforme en ligne conviviale qui permet aux utilisateurs     d'acheter des composants d'ordinateurs de haute qualité ou des ordinateurs complets. Les objectifs spécifiques comprennent :
