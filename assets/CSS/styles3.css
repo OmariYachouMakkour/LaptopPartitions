@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+:root {
+    --orange: #ff7800;
+    --black: #130f40;
+    --light-color:#666;
+    --box-shadow:0 0.5 1rem rgba(0, 0, 0, 0.1); /* right down blur-radius colo*/
+    --border:.2rem solid rgba(0, 0, 0, 0.1);
+    --outline:.1rem solid rgba(0, 0, 0, 0.1);
+    --outline-hover:.2rem solid var(var(--black));
+    font-family: 'Josefin Sans', sans-serif,;
+    font-size: 16px;
+    
+    scroll-behavior: smooth; /* magniéfique scroll dans la page */
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+
+p {
+    font-size: 30px;
+}
+
+h1 {
+
+    color: var(--black);
+    font-size: 90px;
+    text-align: center;
+    margin-top: 80px;
+    /* text-decoration: underline; */
+}
+h2 {
+    margin-top: 6px;
+    color: var(--orange);
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 600;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    width: 100%;
+    background:url("../Images/—Pngtree—wood\ desk\ computer\ background_63175.png");
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+section#upd{
+    min-height: 80vh;
+}
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 630px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+.input-box{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #fff;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+}
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    padding:0 35px 0 5px;
+    border: none;
+    outline: none;
+}
+.input-box-price input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    padding:0 5px 0 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: #eee;
+    font-weight: 600;
+}
+.input-box ion-icon {
+    position: absolute;
+    right: 8px;
+    top: 20px;
+    color: var(--black);
+}
+
+
+
+
+.btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    color: var(--orange);
+    font-weight: 600;
+    border: .2rem solid var(--light-color);
+    transition: 0.2s linear;
+}
+.btn:hover{
+background-color: var(--orange);
+color: #eee;
+}
+
+
+
+#message-dialog {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: var(--border);
+    padding: 20px;
+    text-align: center;
+    box-shadow: var(--box-shadow)
+}
+
+#message-dialog .message-content {
+    margin-bottom: 20px;
+}
+#message-dialog .message-content p {
+    font-size: 18px;
+}
+
+
+#close-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: var(--border);
+    cursor: pointer;
+}
+
+
